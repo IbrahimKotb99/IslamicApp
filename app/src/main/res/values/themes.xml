@@ -3,7 +3,14 @@
     <style name="Base.Theme.IslamicApp" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/gold</item>
+        <item name="colorPrimary">@color/gold</item>
     </style>
+
+    <style name="Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/active_item_color_indicator</item>
+    </style>
+
 
     <style name="Theme.IslamicApp" parent="Base.Theme.IslamicApp" />
 </resources>
